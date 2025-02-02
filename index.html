@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Login Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <nav class="navbar">
+        < img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" 
+             alt="Netflix Logo" class="logo">
+    </nav>
+
+    <!-- 登录表单容器 -->
+    <div class="login-container">
+        <div class="login-card">
+            <h1>Sign In</h1>
+            
+            <!-- 表单区域 -->
+            <form class="login-form">
+                <!-- 邮箱输入 -->
+                <div class="input-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+
+                <!-- 密码输入 -->
+                <div class="input-group">
+                    <input type="password" id="password" required>
+                    <label for="password">Password</label>
+                </div>
+
+                <!-- 登录按钮 -->
+                <button type="submit">Sign In</button>
+
+                <!-- 辅助选项 -->
+                <div class="helpers">
+                    <label class="remember-me">
+                        <input type="checkbox"> Remember me
+                    </label>
+                    Need help?
+                </div>
+            </form>
+
+            <!-- 底部链接 -->
+            <div class="footer-links">
+                <p>New to Netflix? Sign up now.</p >
+                <p>This page is protected by Google reCAPTCHA. Learn more.</p >
+            </div>
+        </div>
+    </div>
+</body>
+</html>
